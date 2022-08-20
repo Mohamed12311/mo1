@@ -1,0 +1,94 @@
+body{
+    box-sizing: border-box;
+overflow: hidden;
+background-image: url('photo_2022-08-07_02-14-56.jpg');
+
+}
+
+.con{
+
+position: relative;
+top: 100px;
+left: 110px;
+
+
+
+    
+}
+
+th,td ,tr{
+    padding: 50px;
+    border: 2px solid rebeccapurple;
+    border-radius: 30px;
+    background-color: rgb(28, 129, 160);
+    text-align: center;
+    
+
+
+
+}
+td{
+   font-size: 25px; 
+   font-weight: 400;
+   background-color: rgb(45, 168, 172);
+}
+th{
+    font-size:26px ;
+}
+caption{
+    font-size: 30px;
+    margin-bottom: 40px;
+    border: 1px solid crimson;
+    background-color: rgb(45, 168, 172);
+    border-radius: 30px;
+    box-shadow: -2px -2px 9px rgb(66, 54, 45);
+}
+@media only screen and (max-width:1370px) {
+    
+    .con{
+
+        position: relative;
+        top: 200px;
+        left: 10px;
+        
+        
+        
+            
+        }
+        
+        th,td ,tr{
+            padding: 50px;
+            border: 2px solid rebeccapurple;
+            border-radius: 30px;
+            background-color: rgb(28, 129, 160);
+            text-align: center;
+            
+        
+        
+        
+        }
+        td{
+           font-size: 25px; 
+           font-weight: 400;
+           background-color: rgb(45, 168, 172);
+        }
+        th{
+            font-size:26px ;
+        }
+        caption{
+            font-size: 30px;
+            margin-bottom: 40px;
+            border: 1px solid crimson;
+            background-color: rgb(45, 168, 172);
+            border-radius: 30px;
+            box-shadow: -2px -2px 9px rgb(66, 54, 45);
+        }
+    
+       
+    
+    
+    
+
+
+    
+}

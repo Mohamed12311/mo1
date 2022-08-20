@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,700&family=Tajawal:wght@400;800&display=swap');
+body{
+    background-color: black;
+    overflow: hidden;
+}
+.sk{
+display: flex;
+}
+ul{
+    list-style-type: none;
+}
+ li{
+    display: inline-block;
+    margin: 19px;
+}
+a{
+ border: 2px solid rgb(43, 40, 40);
+ border-radius: 40px;
+ background-color: rgb(155, 17, 30);
+ color: rgb(14, 7, 7);
+ padding: 10px;   
+ text-decoration: none;
+ font-weight: 90px;
+}
+h2{
+    margin-right: 60px;
+    margin-left:10px ;
+    color: aliceblue;
+    font-size: 30px;
+}
+button{
+    margin-left: 80px;
+    border: 1px solid rgb(58, 53, 53);
+    border-radius: 60px;
+    background-color: rgb(155, 17, 30);
+    font-size: medium;
+    font-weight: 800;
+}
+
+
+h4{
+    color: aliceblue;
+margin-left: 50px;
+margin-top: 70px;
+font-size: 20px;
+
+}
+
+h1{
+    color: aliceblue;
+    margin-left: 80px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', serif;
+}
+h3{
+    color: aliceblue;
+    margin-left: 50px;
+}
+span{
+    color: rgb(155, 17, 30);
+}
+img{
+    border: 1px solid rgb(155, 17, 30);
+    border-radius: 60px;
+    margin: 35px;
+    cursor: pointer;
+    
+    
+}
+.qq{
+    float: left;
+    display: flex;
+    margin-top: 87px;
+    
+}
+
+
+.y{
+    padding: 17px;
+}
+
+.a{
+    float: right;
+    display: flex;
+    position: relative;
+    bottom: 250px;
+    right: 100px;
+    
+    border-radius: 200px;
+    background-color: rgb(155, 17, 30);
+}
+li a:hover {
+    background-color: rgb(35, 117, 128);
+    color: aliceblue;
+}
+button:hover {
+    background-color: rgb(35, 117, 128);
+    color: aliceblue;
+    cursor: pointer;
+}
+@media only screen and (min-width:1000px) {
+    .qq{
+        float: left;
+        display: flex;
+        margin-top: 230px;
+        margin-left: 400px;
+        
+    }
+    .a{
+        float: right;
+        display: flex;
+        position: relative;
+        bottom:500px;
+        right: 100px;
+        
+        border-radius: 200px;
+        background-color: rgb(155, 17, 30);
+    }
+        
+    
+    
+}
+
+
+@media only screen and (min-width:1216px) {
+    .qq{
+        float: left;
+        display: flex;
+        margin-top: 230px;
+        margin-left: 400px;
+        
+    }
+    .a{
+        float: right;
+        display: flex;
+        position: relative;
+        bottom:250px;
+        right: 100px;
+        
+        border-radius: 200px;
+        background-color: rgb(155, 17, 30);
+    }
+        
+    
+    
+}
+
+@media only screen and (max-width:600px) {
+  
+    
+     .hed{
+        display: none;
+     }
+        ul{
+            list-style-type: none;
+        }
+         li{
+            display: inline-flex;
+            margin: 19px;
+        }
+        a{
+         border: 2px solid rgb(43, 40, 40);
+         border-radius: 40px;
+         background-color: rgb(155, 17, 30);
+         color: rgb(14, 7, 7);
+           
+         text-decoration: none;
+         font-weight: 90px;
+        }
+        .sl{
+            position: relative;
+            width: 120px;
+            top: 60px;
+        }
+        .a{
+        position: relative;
+            bottom: 750px;
+            left: 8px;
+            width: 200px;
+            height: 200px;
+        }
+    
+        .qq{
+            float: left;
+            display: flex;
+            margin-top: 50px;
+          
+            
+        }
+    }
+
+        @media only screen and (max-width:400px) {
+            @media only screen and (max-width:600px) {
+  
+    
+                .hed{
+                   display: none;
+                }
+                   ul{
+                       list-style-type: none;
+                   }
+                    li{
+                       display: inline-flex;
+                       margin: 19px;
+                   }
+                   a{
+                    border: 2px solid rgb(43, 40, 40);
+                    border-radius: 40px;
+                    background-color: rgb(155, 17, 30);
+                    color: rgb(14, 7, 7);
+                      
+                    text-decoration: none;
+                    font-weight: 90px;
+                   }
+                   .sl{
+                       position: relative;
+                       width: 120px;
+                       top: 10px;
+                   }
+                   .a{
+                   position: relative;
+                       bottom: 730px;
+                       left: 3px;
+                       width: 200px;
+                       height: 200px;
+                   }
+               
+                   .qq{
+                       
+                       float: left;
+                       
+            
+                       position: relative;
+                       bottom: 128px;
+                       
+                       
+                       
+                       
+                     
+                       
+                   }
+                   .y{
+                    position: relative;
+                    left: 140px;
+                    bottom: 90px;
+                   }
+           
+               
+       
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

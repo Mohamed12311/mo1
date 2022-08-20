@@ -1,0 +1,118 @@
+
+.progress{
+    margin-top: 70px;
+    margin-left: 290px;
+    margin-right: 300px;
+    
+    
+    
+}
+h3{
+    width: 70px;
+    position: relative;
+    top: 97px;
+    margin-left: 30px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+
+}
+footer{
+    position: fixed;
+    bottom: -15px;
+    right: 0;
+    left: 0;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+
+@media  (max-width:501px) {
+    .progress{
+       
+        width: 30%;
+       position: fixed;
+       border-bottom: 3px solid black;
+       border-top: 1px solid black;
+       left: -28px;
+    }
+       .oo{
+        margin-top: 30px;
+        
+      
+       }
+    
+        
+        
+        
+    .p{
+    margin-top: -80px;
+  
+}
+    
+    h3{
+        width: 70px;
+        position: relative;
+        top: 103px;
+        margin-left: 30px;
+        padding: 5px;
+        color: rgb(0, 0, 0);
+    
+    }
+    footer{
+        position: fixed;
+        bottom: -15px;
+        right: 0;
+        left: 0;
+        margin: px;
+        text-align: center;
+        
+    }
+    
+}
+
+
+@media   (min-width:501px) and (max-width:1077px) {
+    .progress{
+       
+        width: 50%;
+       position: fixed;
+       border-bottom: 3px solid black;
+       border-top: 1px solid black;
+       left: -20px;
+    }
+       .oo{
+        margin-top: 30px;
+      
+       }
+    
+        
+        
+        
+    .p{
+    margin-top: -80px;
+  
+}
+    
+    h3{
+        width: 70px;
+        position: relative;
+        top: 103px;
+        margin-left: 30px;
+        padding: 5px;
+        color: rgb(0, 0, 0);
+    
+    }
+    footer{
+        position: fixed;
+        bottom: -15px;
+        right: 0;
+        left: 0;
+    
+        
+        text-align: center;
+        
+    }
+    
+}
+
